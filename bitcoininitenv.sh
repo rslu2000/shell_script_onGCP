@@ -13,10 +13,10 @@ sudo add-apt-repository ppa:bitcoin/bitcoin -y
 sudo apt-get update -y
 sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
 sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler -y
-git clone -b v0.12.1 https://github.com/bitcoin/bitcoin.git bitcoin0.12.1
-cd bitcoin0.12.1
+git clone -b v0.14.2 https://github.com/bitcoin/bitcoin.git bitcoin0.14.2
+cd bitcoin0.14.2
 ./autogen.sh
-./configure
+./configure --disable-tests --disable-gui-tests  --with-libs=no
 make -j4
 sudo make install
 sudo vncserver
