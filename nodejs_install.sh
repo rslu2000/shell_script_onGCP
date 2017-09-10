@@ -1,3 +1,4 @@
+sudo apt-get update
 sudo apt-get install gcc g++ -y
 sudo apt-get install make -y
 wget https://nodejs.org/dist/v8.1.2/node-v8.1.2.tar.gz 
