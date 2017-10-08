@@ -7,3 +7,5 @@ cd node-v8.1.2
 ./configure
 make -j4
 sudo make install
+cd ~
+sudo rm -rf node-v8.1.2
