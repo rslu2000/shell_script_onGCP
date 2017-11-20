@@ -41,7 +41,7 @@ echo "finally download and install opencv"
 mkdir opencv
 cd opencv
 wget "https://github.com/Itseez/opencv/archive/2.4.13.zip"
-unzip 2.4.13.zip
+unzip -o opencv 2.4.13.zip
 
 cd opencv
 mkdir build
