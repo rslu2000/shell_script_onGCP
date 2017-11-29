@@ -9,3 +9,5 @@ make all
 sudo cp ./build/bin/* /usr/bin/
 cd ..
 rm -rf go-ethereum
+cd ~
+wget https://github.com/ethereum/mist/releases/download/v0.9.2/Mist-linux64-0-9-2.zip
